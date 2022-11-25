@@ -1,24 +1,39 @@
 {
-  "tableone": [
+  "employee": [
     {
       "id": "1",
       "parentId" : "",
-      "levelName": "Total Company"
+      "Name": "Abc"
     },
     {
       "id": "2",
       "parentId" : "1",
-      "levelName": "Company D (100% Owned)"
+      "Name": "Def"
+    },
+    {
+      "id": "3",
+      "parentId" : "5",
+      "Name": "fed"
     }
   ],
-  "tabletwo": [
+  "locationCompensation": [
     {
-      "level" : "Company D (100%)",
+      "location" : "Banglore",
       "amount" : "1000"
     },
     {
-      "level" : "Company C (80% owned)",
+      "location" : "Pune",
       "amount" : "800"
     } 
+  ],
+  "Experience": [
+    {
+      "exp-01": "1",
+      "exp-02" : "3"
+    },
+    {
+      "exp-01": "2",
+      "exp-02" : "2"
+    }
   ]
 }
